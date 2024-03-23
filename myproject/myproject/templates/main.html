@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Découvrez nos nouvelles voitures !</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .carousel {
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    .carousel-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .carousel-indicators {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    .carousel-indicator {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin: 0 5px;
+      cursor: pointer;
+      background-color: #ccc;
+    }
+    .carousel-indicator.active {
+      background-color: #000;
+    }
+    .content {
+      margin-top: 20px;
+    }
+    .title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .paragraph {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .button {
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Découvrez nos nouvelles voitures !</h1>
+    </div>
+    <div class="carousel">
+      <img src="image1.jpg" class="carousel-image" alt="Image 1">
+      <img src="image2.jpg" class="carousel-image" alt="Image 2">
+      <img src="image3.jpg" class="carousel-image" alt="Image 3">
+    </div>
+    <div class="carousel-indicators">
+      <span class="carousel-indicator active"></span>
+      <span class="carousel-indicator"></span>
+      <span class="carousel-indicator"></span>
+    </div>
+    <div class="content">
+      <h2 class="title">Découvrez la nouvelle [Nom de la voiture]</h2>
+      <p class="paragraph">La [Nom de la voiture] est une voiture [adjectif] et [adjectif] qui vous offrira une expérience de conduite inoubliable. Avec son moteur puissant et son design élégant, elle est parfaite pour [type de conducteur].</p>
+      <a href="lien vers la page de la voiture" class="button">En savoir plus</a>
+    </div>
+    <div class="footer">
+      <p>Copyright &copy; 2023 - [Nom de l'entreprise]</p>
+    </div>
+  </div>
+</body>
+</html>
